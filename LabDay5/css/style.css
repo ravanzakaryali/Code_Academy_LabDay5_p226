@@ -1,0 +1,134 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+ text-decoration: none;
+}
+:root {
+ --dark-bg: #08192d;
+ --badimcan: #0a183d;
+ --white: #fff;
+ --fs: 18px;
+ --fs-lg: 4rem;
+ --fs-m: 16px;
+ --fs-s: 14px;
+ --gray: gray;
+ --red: #fc0254;
+ --purple: #383b70;
+}
+.w-25 {
+ width: 24%;
+}
+.w-15 {
+ width: 15%;
+}
+.w-50 {
+ width: 49%;
+}
+.w-75 {
+ width: 75%;
+}
+.ml-5 {
+ margin-left: 5px;
+}
+.mr-5 {
+ margin-right: 5px;
+}
+.d-inline-block {
+ display: inline-block !important;
+}
+.container-lg {
+ margin: 0 auto;
+ width: 1400px;
+}
+.container {
+ width: 1200px;
+ margin: 0 auto;
+}
+header {
+ background-color: var(--dark-bg);
+ padding: 40px 0px;
+}
+.row div,
+nav,
+ul,
+ul li {
+ display: inline;
+}
+.nav-ul li {
+ padding: 0 35px;
+}
+.nav-ul li a {
+ font-size: var(--fs);
+ padding: 20px 0px;
+ color: var(--white);
+}
+.nav-ul li a:hover {
+ color: var(--red);
+}
+.auth-ul li a {
+ font-size: var(--fs);
+ padding: 10px 5px;
+ color: var(--white);
+}
+.auth-ul li a:hover {
+ color: var(--red);
+}
+.text-gray {
+ color: var(--gray) !important;
+}
+.text-red {
+ color: var(--red) !important;
+}
+.nav {
+ text-align: center;
+}
+.authentication {
+ text-align: end;
+}
+.line::after {
+ content: '|';
+ margin-left: 5px;
+ color: var(--white);
+}
+#intro {
+ background-color: var(--badimcan);
+}
+#intro .row {
+ padding: 8rem 0px;
+}
+#intro .intro-text {
+ padding-right: 100px;
+ color: var(--white);
+}
+#intro .intro-text .title h2 {
+ line-height: 0.9;
+ font-size: var(--fs-lg);
+}
+#intro .intro-text .content {
+ font-weight: 500;
+ display: inline-block;
+ padding: 50px 0px;
+ font-size: var(--fs-m);
+}
+#intro .intro-text .buttons {
+ display: block;
+}
+#intro .intro-text .buttons .btn {
+ padding: 20px 40px;
+ display: inline-block;
+ color: var(--white);
+ border-radius: 50px;
+ text-transform: uppercase;
+ font-weight: 500;
+}
+.bg-red {
+ background-color: var(--red);
+}
+.bg-purple {
+ background-color: var(--purple);
+}
